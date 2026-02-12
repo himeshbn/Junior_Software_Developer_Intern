@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding: 5px;
+        }
+
+        body{
+            background-color: bisque;
+        }
+
+        @keyframes fadeIn{
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+        }
+
+        @keyframes slidebutton{
+            0% {transform: translateX(-100%);}
+            100% (transform: translateX(0%);)
+        }
+
+        .fade-in-element{
+            animation: fadeIn 5s ease-out;
+            background-color: aqua;
+            border: 1px solid;
+            border-radius: 20px 0 20px 0;
+
+        }
+
+        .fade-in-element1{
+            animation: fadeIn 5s ease-out;
+            background-color: gold;
+            border: 1px solid;
+            border-radius: 20px 0 20px 0;
+
+        }
+        .slidebutton{
+            animation: slidebutton 4s ease-out;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>@keyframes demo</h1>
+
+    <div class="fade-in-element"><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet atque laborum expedita velit
+        veritatis sunt? Inventore modi est labore velit reiciendis! Veritatis dignissimos nisi vero ex. Voluptas, dolore
+        velit.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet atque laborum expedita velit
+        veritatis sunt? Inventore modi est labore velit reiciendis! Veritatis dignissimos nisi vero ex. Voluptas, dolore
+        velit.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet atque laborum expedita velit
+        veritatis sunt? Inventore modi est labore velit reiciendis! Veritatis dignissimos nisi vero ex. Voluptas, dolore
+        velit.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet atque laborum expedita velit
+        veritatis sunt? Inventore modi est labore velit reiciendis! Veritatis dignissimos nisi vero ex. Voluptas, dolore
+        velit.</p>
+
+    </div>
+
+     <div class="fade-in-element1"><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet atque laborum expedita velit
+        veritatis sunt? Inventore modi est labore velit reiciendis! Veritatis dignissimos nisi vero ex. Voluptas, dolore
+        velit.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet atque laborum expedita velit
+        veritatis sunt? Inventore modi est labore velit reiciendis! Veritatis dignissimos nisi vero ex. Voluptas, dolore
+        velit.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet atque laborum expedita velit
+        veritatis sunt? Inventore modi est labore velit reiciendis! Veritatis dignissimos nisi vero ex. Voluptas, dolore
+        velit.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eveniet atque laborum expedita velit
+        veritatis sunt? Inventore modi est labore velit reiciendis! Veritatis dignissimos nisi vero ex. Voluptas, dolore
+        velit.</p>
+
+    </div>
+
+    <button class="slidebutton">Click here for the report</button>
+    
+</body>
+
+</html>
