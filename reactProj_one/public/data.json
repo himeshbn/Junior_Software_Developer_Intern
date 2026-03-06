@@ -1,0 +1,24 @@
+{
+  "customers": [
+    { "id": 1, "name": "Aarav Sharma" },
+    { "id": 2, "name": "Prisha Kapoor" },
+    { "id": 3, "name": "Vikram Singh" },
+    { "id": 4, "name": "Ananya Iyer" },
+    { "id": 5, "name": "Rohan Mehra" },
+    { "id": 6, "name": "Sanya Malhotra" },
+    { "id": 7, "name": "Ishaan Verma" },
+    { "id": 8, "name": "Kavya Reddy" },
+    { "id": 9, "name": "Arjun Nair" },
+    { "id": 10, "name": "Myra Joshi" },
+    { "id": 11, "name": "Devanshu Shah" },
+    { "id": 12, "name": "Zara Khan" },
+    { "id": 13, "name": "Kabir Das" },
+    { "id": 14, "name": "Diya Mistry" },
+    { "id": 15, "name": "Aditya Bose" },
+    { "id": 16, "name": "Riya Chawla" },
+    { "id": 17, "name": "Siddharth Jain" },
+    { "id": 18, "name": "Kiara Advani" },
+    { "id": 19, "name": "Yash Wardhan" },
+    { "id": 20, "name": "Navya Saxena" }
+  ]
+}
